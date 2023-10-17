@@ -8,11 +8,14 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>mcz.piaskownica</groupId>
+	<artifactId>mvn-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Maven demo</name>
+	<description>Demo do przetestowania maven release plugin</description>
+	<scm>
+		<developerConnection>scm:git:https://github.com/mcz75/mvn-demo.git</developerConnection>
+	  </scm>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
